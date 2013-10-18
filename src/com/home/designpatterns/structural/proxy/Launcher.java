@@ -14,7 +14,7 @@ public class Launcher {
         System.out.println();
         
         User user = new User(User.DEFAULT_USER_PASS, User.DEFAULT_USER_PASS);
-        FolderProxy folderProxy = new FolderProxy(user);
+        IFolder folderProxy = new FolderProxy(user);
         folderProxy.performOperations();
         
     }
